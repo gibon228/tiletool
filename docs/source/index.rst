@@ -10,7 +10,9 @@ Welcome to tiletool's documentation!
    :maxdepth: 2
    :caption: Contents:
    
+   properties
    methods
+   examples
 
 
 Indices and tables
