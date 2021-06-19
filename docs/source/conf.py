@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'tiletool'
-copyright = '2021, lixxen'
-author = 'lixxen'
+copyright = '2021, gibon228'
+author = 'gibon228'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
