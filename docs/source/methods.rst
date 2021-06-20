@@ -12,3 +12,7 @@ keys (1 for the image, 0 for empty space).
 *cc.fill_dict((1,0),('platform2.png','empty'))*
 
 **object.blit_tiles(window,** ***object_camera)** - display object in window. If the camera needs to follow any object, pass the camera class object in object_camera argument of all TileTool objects. 
+
+**object.create_obj_matrix()** - creates matrix storing each tile as a pygame class object.
+
+**object.paint_tile(x,y,color)** - creates a tile in coordinates(x*tile width,y*tile height) colored in RGB format - i.e (255,255,255) and displays it on screen. Created tile is not an individual object.
