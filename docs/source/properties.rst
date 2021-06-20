@@ -1,11 +1,13 @@
 Properties and object creation
 ==========
 
-object = TileTool('filename',**layer=1)
+
 
 
 
  Creating an object from external file.
+ 
+object = TileTool('filename',**layer=1)
 
 filename - file format: 
 
@@ -20,10 +22,11 @@ layer - int, layer number from .tmx file. Used only with .tmx files.
 
 
 
-object = TileTool([x,y],0)
+
 
  Generating a frame or a simple rectangle of tiles.
 
+object = TileTool([x,y],0)
 
 [x,y] - list, where x is the width of the generating object and y is the height(in tiles).
 
