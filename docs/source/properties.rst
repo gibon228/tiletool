@@ -9,7 +9,7 @@ Properties and object creation
  
 object = TileTool('filename',**layer=1)
 
-<strong>filename</strong> - file format: 
+**filename** - file format: 
 
 -.csv(file with separator) 
 
@@ -18,7 +18,7 @@ object = TileTool('filename',**layer=1)
 -.txt(text file with separator)
 
 
-layer - int, layer number from .tmx file. Used only with .tmx files.
+**layer** - int, layer number from .tmx file. Used only with .tmx files.
 
 
 
@@ -28,14 +28,14 @@ layer - int, layer number from .tmx file. Used only with .tmx files.
 
 object = TileTool([x,y],0)
 
-[x,y] - list, where x is the width of the generating object and y is the height(in tiles).
+**[x,y]** - list, where x is the width of the generating object and y is the height(in tiles).
 
 
  Object properties.
 
-object.matrix - 2-dimensional array, matrix storing tiles IDs, inner lists are matrix' rows.
+**object.matrix** - 2-dimensional array, matrix storing tiles IDs, inner lists are matrix' rows.
 
-object.layers - number of layers in .tmx file.
+**object.layers** - number of layers in .tmx file.
 
-object.dictionary - dictionary where the keys are tile IDs, values are the pictures connected to them. It is filled after the call of fill_dict() method.
+**object.dictionary** - dictionary where the keys are tile IDs, values are the pictures connected to them. It is filled after the call of fill_dict() method.
 
