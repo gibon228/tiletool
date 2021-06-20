@@ -3,7 +3,7 @@ Properties and object creation
 ENG
 
 object = TileTool('filename',**layer=1)
-----
+---
 Creating an object from external file.
 
 filename - file format: 
@@ -13,7 +13,7 @@ filename - file format:
 
 layer - int, layer number from .tmx file. Used only with .tmx files.
 
-----
+---
 object = TileTool([x,y],0)
 
  Generating a frame or a simple rectangle of tiles.
@@ -21,7 +21,7 @@ object = TileTool([x,y],0)
 
 [x,y] - list, where x is the width of the generating object and y is the height(in tiles).
 
-----
+---
 Object properties.
 
 object.matrix - 2-dimensional array, matrix storing tiles IDs, inner lists are matrix' rows.
@@ -31,7 +31,7 @@ object.dictionary - dictionary where the keys are tile IDs, values are the pictu
 RUS
 
 object = TileTool('filename',**layer=1)
-----
+---
 Создание объекта из внешнего файла.
 
 filename - файл формата: 
@@ -41,7 +41,7 @@ filename - файл формата:
 
 layer - int, номер слоя из .tmx файла. Используется только с tmx файлами
 
-----
+---
 object = TileTool([x,y],0)
 
  Генерация рамки или простого прямоугольника из тайлов.
@@ -49,7 +49,7 @@ object = TileTool([x,y],0)
 
 [x,y] - список, где x - ширина создаваемого объекта, y - высота в тайлах.
 0 - будет создана рамка(фигура без заливки внутри), 1 - прямоугольник. Значение по умолчанию - 0.
-----
+---
 Свойства объекта.
 
 object.matrix - двумерный массив, матрица, хранящая id тайлов, вложенные списки - строки матрицы.
