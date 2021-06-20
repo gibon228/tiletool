@@ -5,9 +5,9 @@ Properties and object creation
 
 
 
- Creating an object from external file.
+ *Creating an object from external file.*
  
-object = TileTool('filename',**layer=1)
+**object** **=** **TileTool**(**'filename',****layer=1)**
 
 **filename** - file format: 
 
@@ -24,14 +24,14 @@ object = TileTool('filename',**layer=1)
 
 
 
- Generating a frame or a simple rectangle of tiles.
+ *Generating a frame or a simple rectangle of tiles.*
 
-object = TileTool([x,y],0)
+**object = TileTool([x,y],0)**
 
 **[x,y]** - list, where x is the width of the generating object and y is the height(in tiles).
 
 
- Object properties.
+ *Object properties.*
 
 **object.matrix** - 2-dimensional array, matrix storing tiles IDs, inner lists are matrix' rows.
 
