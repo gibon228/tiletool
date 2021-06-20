@@ -3,7 +3,7 @@ Properties and object creation
 
 object = TileTool('filename',**layer=1)
 
-----
+
 
  Creating an object from external file.
 
@@ -18,7 +18,7 @@ filename - file format:
 
 layer - int, layer number from .tmx file. Used only with .tmx files.
 
-----
+
 
 object = TileTool([x,y],0)
 
@@ -27,7 +27,7 @@ object = TileTool([x,y],0)
 
 [x,y] - list, where x is the width of the generating object and y is the height(in tiles).
 
-----
+
  Object properties.
 
 object.matrix - 2-dimensional array, matrix storing tiles IDs, inner lists are matrix' rows.
