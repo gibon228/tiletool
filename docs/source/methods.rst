@@ -16,3 +16,9 @@ keys (1 for the image, 0 for empty space).
 **object.create_obj_matrix()** - creates matrix storing each tile as a pygame class object.
 
 **object.paint_tile(x,y,color)** - creates a tile in coordinates(x*tile width,y*tile height) colored in RGB format - i.e (255,255,255) and displays it on screen. Created tile is not an individual object.
+
+**object.moving_tile(coord,speed,border,direction,window)** - when called out in infinite loop, object will move in window from starting coordinates (coord) in the tuple to the border (in pixels). Pass "HORIZONTAL" in direction for moving horizontally, "VERTICAL" for moving vertically. Minimal speed is 1.
+
+*example:*
+
+*object.moving_tile((50,50),1,10,window)*
