@@ -3,10 +3,13 @@ Properties and object creation
 ENG
 
 object = TileTool('filename',**layer=1).
+
 ---
+
 Creating an object from external file.
 
 filename - file format: 
+
 -.csv(file with separator) 
 -.tmx(format of XML files. Can be created in Tiled editor.) 
 -.txt(text file with separator)
