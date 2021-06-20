@@ -9,7 +9,7 @@ Properties and object creation
  
 object = TileTool('filename',**layer=1)
 
-<b>filename</b> - file format: 
+filename - file format: 
 
 -.csv(file with separator) 
 
