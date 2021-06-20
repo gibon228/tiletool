@@ -15,9 +15,4 @@ Welcome to tiletool's documentation!
    examples
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
