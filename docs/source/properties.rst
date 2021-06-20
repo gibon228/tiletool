@@ -2,7 +2,7 @@ Properties and object creation
 ==========
 ENG
 
-object = TileTool('filename',**layer=1)
+object = TileTool('filename',**layer=1).
 ---
 Creating an object from external file.
 
