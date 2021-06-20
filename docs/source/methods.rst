@@ -11,5 +11,4 @@ keys (1 for the image, 0 for empty space).
 
 *cc.fill_dict((1,0),('platform2.png','empty'))*
 
-**object.blit_tiles(window,** ***object_camera)** - display object in window. If the camera needs to follow any object, pass the camera class object in object_camera argument of all
-TileTool objects. 
+**object.blit_tiles(window,** ***object_camera)** - display object in window. If the camera needs to follow any object, pass the camera class object in object_camera argument of all TileTool objects. 
